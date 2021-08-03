@@ -6,7 +6,7 @@ env.read_env()
 
 DATABASES = {
     'default': {
-        'ENGINE': env('ENGINE'),
+        'ENGINE': env('DATABASE_ENGINE'),
         'HOST': env('DATABASE_HOST'),
         'PORT': env('DATABASE_PORT'),
         'NAME': env('DATABASE_NAME'),
