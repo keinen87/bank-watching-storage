@@ -13,13 +13,14 @@
 Пример файла .env(его можно создать в корне проекта):
 
 ```
-SETTINGS_DEBUG=True
+DEBUG=True
 DATABASE_HOST=192.168.0.1
 DATABASE_PORT=5432
 DATABASE_NAME=databasename
 DATABASE_USER=user
 DATABASE_PASSWORD=pAsSwOrD
 SECRET_KEY=replace_me
+ALLOWED_HOSTS = 127.0.0.1
 ```
 
 Python3 должен быть уже установлен. 
